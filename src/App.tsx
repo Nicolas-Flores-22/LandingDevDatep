@@ -1,9 +1,7 @@
-import './App.css'
-
 function App () {
   return (
-    <main>
-      hi
+    <main className='text-2xl relative w-full h-full'>
+      text
     </main>
   )
 }
