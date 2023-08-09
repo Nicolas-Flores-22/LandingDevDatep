@@ -1,9 +1,9 @@
-<svg width="1441" height="835" viewBox="0 0 1441 835" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1441 835" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_167_1522)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1441 0H0V413.382V796C170.662 752.848 293.446 685.296 406.072 623.332C561.425 537.862 697.451 463.024 913.148 477.52C1285.22 502.525 1441 413.382 1441 413.382V0Z" fill="#051C46" fill-opacity="0.8" shape-rendering="crispEdges"/>
 </g>
 <defs>
-<filter id="filter0_d_167_1522" x="-4" y="0" width="1449" height="835" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_167_1522" x="-4" y="0" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="35"/>
@@ -15,3 +15,16 @@
 </filter>
 </defs>
 </svg>
+
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#051C46" fill-opacity="0.8" d="M0,288L40,256C80,224,160,160,240,160C320,160,400,224,480,245.3C560,267,640,245,720,229.3C800,213,880,203,960,176C1040,149,1120,107,1200,85.3C1280,64,1360,64,1400,64L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+</svg> -->
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#051C46" fill-opacity="0.8" d="M0,320L40,309.3C80,299,160,277,240,229.3C320,181,400,107,480,85.3C560,64,640,96,720,106.7C800,117,880,107,960,96C1040,85,1120,75,1200,80C1280,85,1360,107,1400,117.3L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+</svg> -->
+
+<!-- <svg height="900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#051C46" fill-opacity="0.8" d="M0,224L48,240C96,256,192,288,288,272C384,256,480,192,576,160C672,128,768,128,864,138.7C960,149,1056,171,1152,170.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+</svg> -->

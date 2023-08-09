@@ -8,7 +8,7 @@ function App () {
       <main className='w-full h-full'>
         <Home/>
       </main>
-      <footer className='w-full h-full'>
+      <footer className='w-full h-full bg-red-400'>
         Footer
       </footer>
     </>
