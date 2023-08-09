@@ -1,8 +1,17 @@
+import Header from './components/Header'
+import Home from './pages/Home'
+
 function App () {
   return (
-    <main className='text-2xl relative w-full h-full'>
-      text
-    </main>
+    <>
+      <Header/>
+      <main className='w-full h-full'>
+        <Home/>
+      </main>
+      <footer className='w-full h-full'>
+        Footer
+      </footer>
+    </>
   )
 }
 
