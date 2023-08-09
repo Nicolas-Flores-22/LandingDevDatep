@@ -4,8 +4,8 @@ import '../App.css'
 const Header = () => {
   return (
     <header className='w-full bg-[#051C46] opacity-80'>
-      <div className='hidden lg:block'>
-        <div className='flex items-center justify-between'>
+      <div className='hidden lg:block w-full'>
+        <div className='flex items-center justify-between w-full'>
           <img src={logoDevdatep} alt="logo_devdatep" />
           <nav className='w-full flex items-center justify-center text-white'>
             <ul className='flex gap-10 font-semibold text-lg'>
