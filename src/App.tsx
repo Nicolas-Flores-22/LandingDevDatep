@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App () {
   return (
@@ -8,9 +9,7 @@ function App () {
       <main className='w-full h-full'>
         <Home/>
       </main>
-      <footer className='w-full h-full bg-red-400'>
-        Footer
-      </footer>
+      <Footer/>
     </>
   )
 }
