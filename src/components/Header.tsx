@@ -1,5 +1,5 @@
+import { NavLink } from 'react-router-dom'
 import logoDevdatep from '../assets/logoDevdatep.svg'
-import '../App.css'
 
 const Header = () => {
   return (
@@ -9,10 +9,42 @@ const Header = () => {
           <img src={logoDevdatep} alt="logo_devdatep" />
           <nav className='w-full flex items-center justify-center text-white'>
             <ul className='flex gap-10 font-semibold text-lg'>
-              <li>Nosotros</li>
-              <li>Nuestro trabajo</li>
-              <li>Servicios</li>
-              <li>Contacto</li>
+              <li>
+                <NavLink to="/"
+                    className={({ isActive }) =>
+                      isActive ? 'transition-colors duration-500 text-[#ADEEB6] pb-[4px] border-b-[2px] border-b-[#ADEEB6]' : 'text-white'
+                    }
+                  >
+                    Nosotros
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/nuestro-trabajo"
+                  className={({ isActive }) =>
+                    isActive ? 'transition-colors duration-500 text-[#ADEEB6] pb-[4px] border-b-[2px] border-b-[#ADEEB6]' : 'text-white'
+                  }
+                >
+                  Nuestro trabajo
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/servicios"
+                  className={({ isActive }) =>
+                    isActive ? 'transition-colors duration-500 text-[#ADEEB6] pb-[4px] border-b-[2px] border-b-[#ADEEB6]' : 'text-white'
+                  }
+                >
+                  Servicios
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="contacto"
+                  className={({ isActive }) =>
+                    isActive ? 'transition-colors duration-500 text-[#ADEEB6] pb-[4px] border-b-[2px] border-b-[#ADEEB6]' : 'text-white'
+                  }
+                >
+                  Contacto
+                </NavLink>
+              </li>
             </ul>
           </nav>
           <div>
